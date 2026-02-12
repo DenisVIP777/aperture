@@ -293,7 +293,7 @@ body._lock {
 /*main-section style start*/
 .main-section {
 	min-height: calc(100dvh - 90px); /*or 710px - 600px on window size 600px*/
-	transition: height 0.2s linear 0s;
+	transition: height 0.2s linear 0s, min-height 0.2s linear 0s;
 	display: flex;
 	flex-direction: column;
 }
@@ -1186,3 +1186,4 @@ body._lock {
 }
 
 /*footer style end*/
+
