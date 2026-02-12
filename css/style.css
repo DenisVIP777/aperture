@@ -572,7 +572,8 @@ body._lock {
 
 /*site-section style start*/
 .site-section {
-	min-height: 100vh; /*or 600px*/
+	min-height: 100dvh; /*or 600px*/
+	transition: height 0.2s linear 0s;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -1183,4 +1184,5 @@ body._lock {
 		color: #00a8f6;
 	}
 }
+
 /*footer style end*/
